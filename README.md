@@ -4,4 +4,4 @@
 * Designers: [NeyugnYorel](https://github.com/NeyugnYorel/).
 * Developers: [NeyugnYorel](https://github.com/NeyugnYorel/).
 * Planner: [NeyugnYorel](https://github.com/NeyugnYorel/).
-* Ideators: [Tí Bò] and [NeyugnYorel](https://github.com/NeyugnYorel/).
+* Ideators: [Tí Bò]() and [NeyugnYorel](https://github.com/NeyugnYorel/).
