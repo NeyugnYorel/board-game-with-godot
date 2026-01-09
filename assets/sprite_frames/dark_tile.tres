@@ -1,0 +1,79 @@
+[gd_resource type="SpriteFrames" load_steps=11 format=3 uid="uid://cwltjq8jjsbtk"]
+
+[ext_resource type="Texture2D" uid="uid://cl8fylr2720ct" path="res://assets/textures/tiles.png" id="1_j38mx"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_81k7k"]
+atlas = ExtResource("1_j38mx")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mgrfo"]
+atlas = ExtResource("1_j38mx")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f5lm1"]
+atlas = ExtResource("1_j38mx")
+region = Rect2(32, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k4qxp"]
+atlas = ExtResource("1_j38mx")
+region = Rect2(48, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d338d"]
+atlas = ExtResource("1_j38mx")
+region = Rect2(64, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bmyp3"]
+atlas = ExtResource("1_j38mx")
+region = Rect2(80, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d86qn"]
+atlas = ExtResource("1_j38mx")
+region = Rect2(96, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hlemr"]
+atlas = ExtResource("1_j38mx")
+region = Rect2(112, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fqjl6"]
+atlas = ExtResource("1_j38mx")
+region = Rect2(128, 0, 16, 16)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_81k7k")
+}],
+"loop": false,
+"name": &"default",
+"speed": 0.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mgrfo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f5lm1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k4qxp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d338d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bmyp3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d86qn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hlemr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fqjl6")
+}],
+"loop": false,
+"name": &"door_opening",
+"speed": 12.0
+}]

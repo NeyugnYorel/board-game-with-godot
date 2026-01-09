@@ -1,0 +1,79 @@
+[gd_resource type="SpriteFrames" load_steps=11 format=3 uid="uid://ce4bgsfax57se"]
+
+[ext_resource type="Texture2D" uid="uid://cl8fylr2720ct" path="res://assets/textures/tiles.png" id="1_xw5fk"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ksaqm"]
+atlas = ExtResource("1_xw5fk")
+region = Rect2(0, 16, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gf0mp"]
+atlas = ExtResource("1_xw5fk")
+region = Rect2(16, 16, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3hn3k"]
+atlas = ExtResource("1_xw5fk")
+region = Rect2(32, 16, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tlr88"]
+atlas = ExtResource("1_xw5fk")
+region = Rect2(48, 16, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hj37e"]
+atlas = ExtResource("1_xw5fk")
+region = Rect2(64, 16, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0u603"]
+atlas = ExtResource("1_xw5fk")
+region = Rect2(80, 16, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wtkg8"]
+atlas = ExtResource("1_xw5fk")
+region = Rect2(96, 16, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5l8lg"]
+atlas = ExtResource("1_xw5fk")
+region = Rect2(112, 16, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vd5bp"]
+atlas = ExtResource("1_xw5fk")
+region = Rect2(128, 16, 16, 16)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ksaqm")
+}],
+"loop": false,
+"name": &"default",
+"speed": 0.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gf0mp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3hn3k")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tlr88")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hj37e")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0u603")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wtkg8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5l8lg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vd5bp")
+}],
+"loop": false,
+"name": &"door_opening",
+"speed": 12.0
+}]
